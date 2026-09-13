@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: www.genflix.co.id.r3xxe.eu.cc
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  server: 82.198.246.233
+  server: 82.198.246.250
   port: 180
   udp: true
   type: vmess
@@ -55,7 +55,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: css.rbxcdn.com
+  sni: speedtest.tinkoff.ru
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
