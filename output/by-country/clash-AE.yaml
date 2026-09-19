@@ -5,14 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 104.143.223.78
-  port: 2085
+  server: 31.56.189.27
+  port: 2087
   udp: true
   type: vless
-  uuid: 6687af93-eb39-47a3-9a73-0f79234ef507
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  tls: true
+  servername: srv-21bac9.vless.monster
+  skip-cert-verify: false
   network: grpc
   grpc-opts:
-    grpc-service-name: vless
+    grpc-service-name: freegrpc
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   server: 31.58.181.88
   port: 8443

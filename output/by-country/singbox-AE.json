@@ -6,12 +6,17 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-      "server": "104.143.223.78",
-      "server_port": 2085,
-      "uuid": "6687af93-eb39-47a3-9a73-0f79234ef507",
+      "server": "31.56.189.27",
+      "server_port": 2087,
+      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-21bac9.vless.monster",
+        "insecure": false
+      },
       "transport": {
         "type": "grpc",
-        "service_name": "vless"
+        "service_name": "freegrpc"
       }
     },
     {
