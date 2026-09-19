@@ -5,7 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  server: 84.32.215.117
+  server: lt-vno-3.blook.network
+  port: 443
+  udp: true
+  type: vless
+  uuid: e230740a-aa30-461a-8bf3-9c8cab6332f7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: XZEwCogwNYSmUTxAvanoSdYCslQJAJcKBewa6-_pWS4
+    short-id: 89c919a1
+  servername: lt-vno-3.blook.network
+  client-fingerprint: firefox
+- name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
+  server: lt.aether-runet.top
   port: 443
   udp: true
   type: vless
@@ -23,11 +36,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
 rules:
 - MATCH,PROXIES
