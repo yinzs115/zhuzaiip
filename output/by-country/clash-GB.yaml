@@ -5,100 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - xiaohe
-  server: 194.156.26.45
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6bef6685-e989-467c-8fea-7fa1c6a0af2c
-  tls: true
-  servername: LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vl/BBj8crirrHMxntD7H3o3z
-    headers:
-      Host: LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev
-- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
-  server: 172.67.158.158
-  port: 443
-  udp: true
-  type: trojan
-  password: Siw3_iSte@ulOTO,-
-  sni: 4zgCcbCb10PqYIBNwmM4NVzNj4.RoyaehmaN5.WORkErs.DeV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/fZ9yFHHYZsOSWv2vnEhP?ed=2560
-- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
-  server: 104.21.14.100
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7fc7f295-b80e-4235-bb17-61e3ddc0744a
-  tls: true
-  servername: 4zGCcbcB10PQYiBNWmM4NvZnj4.royAEhMAN5.woRKERS.deV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/dUpDYuQTXxF5X83infdA74?ed=2560
-    headers:
-      Host: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 04 - xiaohe
-  server: 188.114.97.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
-  tls: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 05 - xiaohe
-  server: 188.114.96.3
-  port: 443
-  udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: cdtfrgmtcsbaarmz-9owpz7g4.f9w96pzky6un-covzx6b-hzlm80woj2.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/3F3fUAGJks9doKvjt8AREH4QR?ed=2560
-- name: 🇬🇧 英国 (United Kingdom) 06 - xiaohe
-  server: 141.98.101.181
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
-  server: 51.77.225.200
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
-  server: 144.24.229.97
-  port: 61312
-  udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: pfXiuLfaGDAlLQRsBXMGn0JepNmrqAMESQDiMP+neyU=
-- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
-  server: 158.173.221.214
-  port: 11001
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c58d16e593d44f42
-- name: 🇬🇧 英国 (United Kingdom) 10 - xiaohe
   server: 66.90.104.42
   port: 2083
   udp: true
@@ -107,88 +13,49 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: 🇬🇧 英国 (United Kingdom) 11 - xiaohe
-  server: 186.190.211.188
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 186.190.211.188
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 12 - xiaohe
-  server: 78.129.208.44
-  port: 421
-  udp: true
-  type: vless
-  uuid: a9900333-444b-4a36-a2f0-0567946c47cd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-    short-id: a1facbc8575701ae
-  servername: chistomat.dry.care
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 13 - xiaohe
-  server: 57.129.132.223
-  port: 80
-  udp: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
-- name: 🇬🇧 英国 (United Kingdom) 14 - xiaohe
-  server: 31.76.7.154
-  port: 7443
-  udp: true
-  type: vless
-  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: d2061bb1
-  servername: ya.ru
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 15 - xiaohe
-  server: pahobac.org
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: pahobac.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: pahobac.org
-- name: 🇬🇧 英国 (United Kingdom) 16 - xiaohe
-  server: 2.27.205.59
-  port: 443
-  udp: true
-  type: vless
-  uuid: c21631d5-36c9-4664-b575-97eca17456be
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇬🇧 英国 (United Kingdom) 17 - xiaohe
-  server: 94.156.250.148
-  port: 7001
+- name: 🇬🇧 英国 (United Kingdom) 02 - xiaohe
+  server: 51.77.225.200
+  port: 8388
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇬🇧 英国 (United Kingdom) 18 - xiaohe
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
+- name: 🇬🇧 英国 (United Kingdom) 03 - xiaohe
+  server: 144.24.229.97
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: pfXiuLfaGDAlLQRsBXMGn0JepNmrqAMESQDiMP+neyU=
+- name: 🇬🇧 英国 (United Kingdom) 04 - xiaohe
+  server: 158.173.221.214
+  port: 11001
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
+- name: 🇬🇧 英国 (United Kingdom) 05 - xiaohe
+  server: 134.65.59.212
+  port: 61312
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Pd3wPrQChdIKBVDeZ9In4vIj5Lq1w4lygpl82gPp4po=
+- name: 🇬🇧 英国 (United Kingdom) 06 - xiaohe
+  server: 141.98.101.181
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇬🇧 英国 (United Kingdom) 07 - xiaohe
+  server: 146.70.61.18
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇬🇧 英国 (United Kingdom) 08 - xiaohe
   server: 31.76.88.10
   port: 443
   udp: true
@@ -203,7 +70,19 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf5.rumedia-cdn.com
-- name: 🇬🇧 英国 (United Kingdom) 19 - xiaohe
+- name: 🇬🇧 英国 (United Kingdom) 09 - xiaohe
+  server: 46.250.250.149
+  port: 2053
+  udp: true
+  type: vless
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  tls: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+    short-id: 9922313fffed1c63
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 10 - xiaohe
   server: 193.163.203.170
   port: 443
   udp: true
@@ -216,14 +95,6 @@ proxies:
     short-id: b28db60d77c50b4f
   servername: yandex.ru
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 20 - xiaohe
-  server: 66.163.117.58
-  port: 22324
-  udp: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select
@@ -239,16 +110,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 08 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 09 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 10 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 11 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 12 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 13 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 14 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 15 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 16 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 17 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 18 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 19 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 20 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -264,15 +125,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 08 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 09 - xiaohe
   - 🇬🇧 英国 (United Kingdom) 10 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 11 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 12 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 13 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 14 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 15 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 16 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 17 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 18 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 19 - xiaohe
-  - 🇬🇧 英国 (United Kingdom) 20 - xiaohe
 rules:
 - MATCH,PROXIES
