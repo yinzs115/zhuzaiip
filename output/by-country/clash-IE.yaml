@@ -5,47 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  server: 172.67.67.178
-  port: 443
-  udp: true
-  type: vless
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  server: 104.21.81.162
-  port: 443
-  udp: true
-  type: vless
-  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
-  tls: true
-  servername: netra-85a0ca.shoameni19.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui
-    headers:
-      Host: netra-85a0ca.shoameni19.workers.dev
-- name: 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
-  server: 104.21.76.194
-  port: 443
-  udp: true
-  type: trojan
-  password: Telegram_healer_config
-  sni: X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed
-- name: 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
   server: 3.9.135.156
   port: 51847
   udp: true
@@ -64,17 +23,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
-  - 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
 rules:
 - MATCH,PROXIES
