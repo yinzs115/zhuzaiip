@@ -4,21 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.32.87",
+      "server": "guanwang.awsno.com",
       "server_port": 443,
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
+        "server_name": "guanwang.awsno.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/trojan",
+        "path": "/hls/cctv5phd.m3u8",
         "headers": {
-          "Host": "id1.nathaya.web.id"
+          "Host": "guanwang.awsno.com"
         }
       }
     },
