@@ -13,21 +13,21 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-      "server": "81.90.21.168",
-      "server_port": 443,
-      "uuid": "30dab345-4de9-4b70-ad9f-8ebd5c66686f",
+      "server": "144.31.27.215",
+      "server_port": 43000,
+      "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.jsdelivr.net",
+        "server_name": "144.31.27.215",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GRxGFwibgoUjG9OL5Dl1OLyK56yw8WaG5BdFP8ifVgQ",
-          "short_id": "26f7082dd0e36ca1"
+          "public_key": "dxCQnOekn14riFxt3vdwDNydvW47FsmwFG6BJ2mUgEg",
+          "short_id": "568d87a47271344e"
         }
       }
     },
