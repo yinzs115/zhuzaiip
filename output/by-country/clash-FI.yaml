@@ -5,17 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 204.168.147.195
-  port: 1085
-  udp: true
-  type: vless
-  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 77.42.20.51
   port: 1085
   udp: true
   type: vless
   uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
+  server: 81.90.21.168
+  port: 443
+  udp: true
+  type: vless
+  uuid: 30dab345-4de9-4b70-ad9f-8ebd5c66686f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GRxGFwibgoUjG9OL5Dl1OLyK56yw8WaG5BdFP8ifVgQ
+    short-id: 26f7082dd0e36ca1
+  servername: cdn.jsdelivr.net
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
