@@ -6,21 +6,23 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-      "server": "94.242.58.90",
+      "server": "94.143.231.146",
       "server_port": 443,
-      "uuid": "04baafc3-0fea-4a8a-bfa8-22d759ed82ca",
-      "flow": "xtls-rprx-vision",
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
+        "server_name": "sub.merky.top",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "s-B3oTvLAgogG5hqGZ0tYZjxWSSZQFIA1e7i6DrWngA",
-          "short_id": "2b336c5c"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
         }
       }
     },
