@@ -4,22 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "or3.sfacg.uk",
-      "server_port": 2083,
-      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
-      "security": "auto",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.sfacg.uk",
+        "server_name": "www.calmlunch.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/or3",
+        "path": "/assignment",
         "headers": {
-          "Host": "or3.sfacg.uk"
+          "Host": "www.calmlunch.com"
         }
       }
     },

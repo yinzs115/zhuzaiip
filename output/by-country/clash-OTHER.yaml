@@ -5,21 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: or3.sfacg.uk
-  port: 2083
+  server: www.speedtest.net
+  port: 443
   udp: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: cdn.sfacg.uk
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
