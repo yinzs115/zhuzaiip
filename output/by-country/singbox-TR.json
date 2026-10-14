@@ -6,22 +6,6 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.102.81",
-      "server_port": 17915,
-      "uuid": "439628ee-ef8e-4a3e-ba0f-091b7376dcb8",
-      "tls": {
-        "enabled": true,
-        "server_name": "googol.wookshop.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "server": "62.60.233.157",
       "server_port": 8444,
       "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
@@ -30,7 +14,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -44,29 +28,27 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "172.67.176.3",
-      "server_port": 2053,
-      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "server": "tr2.h1cloud.net",
+      "server_port": 25375,
+      "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
       "tls": {
         "enabled": true,
-        "server_name": "nimm.mpd.cc.cd",
-        "insecure": false,
-        "alpn": [
-          "h3h2http/1.1"
-        ],
+        "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PdiXtqIEtNpVRKgB1WCKnmIOC7yJ-VR4uUe1uYjcqXM",
+          "short_id": "8e2a0cd6de5dc50a"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/0962",
-        "headers": {
-          "Host": "nimm.mpd.cc.cd"
-        }
+        "type": "grpc",
+        "service_name": "05195f917c82"
       }
     },
     {
@@ -75,8 +57,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ]
     },
     {
@@ -84,8 +65,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
