@@ -4,21 +4,9 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
-      "server": "45.205.27.78",
-      "server_port": 10443,
-      "password": "1f02add4-bdc6-4ee2-af47-33c4503efdcf",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.205.27.78",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "156.226.168.221",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
+      "server": "hk3n.wxgqlfx.vip",
       "server_port": 35193,
       "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "flow": "xtls-rprx-vision",
@@ -35,6 +23,13 @@
           "short_id": "e8daed2d"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
+      "server": "45.137.43.168",
+      "server_port": 10443,
+      "uuid": "b4cc503a-c352-4775-85ad-fc982086884a"
     },
     {
       "type": "selector",

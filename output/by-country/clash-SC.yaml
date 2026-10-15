@@ -5,15 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
-  server: 45.205.27.78
-  port: 10443
-  udp: true
-  type: trojan
-  password: 1f02add4-bdc6-4ee2-af47-33c4503efdcf
-  sni: 45.205.27.78
-  skip-cert-verify: true
-- name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
-  server: 156.226.168.221
+  server: hk3n.wxgqlfx.vip
   port: 35193
   udp: true
   type: vless
@@ -25,6 +17,12 @@ proxies:
     short-id: e8daed2d
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  server: 45.137.43.168
+  port: 10443
+  udp: true
+  type: vless
+  uuid: b4cc503a-c352-4775-85ad-fc982086884a
 proxy-groups:
 - name: PROXIES
   type: select
