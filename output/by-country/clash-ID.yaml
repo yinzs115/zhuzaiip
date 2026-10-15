@@ -4,30 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇱 AL 01 - xiaohe
-  server: 83.166.238.57
-  port: 443
+- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  server: 103.172.197.3
+  port: 16006
   udp: true
   type: vless
-  uuid: a16a3e32-8d63-4dec-8c67-1361388a64ca
+  uuid: f8c9d2a1-da40-4f90-b671-11772a0b13d6
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: QXw5YbUfPssdgGZIfAol5PonYGWSjlWsWpoij93VU20
-    short-id: b276e04195d77f6b
-  servername: eh3.vk.ru
+    public-key: ll7JTP628PuBMZJvx6fuhGSmCRSURnReAetmhCEL8GU
+  servername: www.cloudflare.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇱 AL 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇱 AL 01 - xiaohe
+  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
