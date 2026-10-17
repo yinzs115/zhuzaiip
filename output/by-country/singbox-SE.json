@@ -6,21 +6,25 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-      "server": "88.216.223.66",
-      "server_port": 443,
-      "uuid": "244d9eab-3311-40c7-b47f-4968dc3088a6",
+      "server": "se1.h1cloud.net",
+      "server_port": 26128,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
       "tls": {
         "enabled": true,
-        "server_name": "tcpswed1.figurapn.ru",
+        "server_name": "www.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "short_id": "868419504747f6de"
+          "public_key": "sACiHit5lNtPRK_eFP6jT8dMPUZ4kQRsfPj_LL5p7Uk",
+          "short_id": "13ac4d3bdadf1ea1"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "df50147201bf"
       }
     },
     {
@@ -34,7 +38,7 @@
         "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -50,22 +54,6 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-      "server": "edge-lab-b.10media.top",
-      "server_port": 443,
-      "uuid": "9cb8d71c-fe06-4402-a591-eaa1f173b890",
-      "tls": {
-        "enabled": true,
-        "server_name": "edge-lab-b.10media.top",
-        "insecure": false
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "swedenfeed"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
       "server": "5.178.109.174",
       "server_port": 14430,
       "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
@@ -84,8 +72,7 @@
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
       ]
     },
     {
@@ -94,8 +81,7 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
