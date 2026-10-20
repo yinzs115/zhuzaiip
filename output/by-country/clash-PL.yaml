@@ -5,25 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 45.194.66.193
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg
-    short-id: acccaaaa9f72147d
-  servername: pl.golangwikito.cfd
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
   server: 31.133.0.186
   port: 443
   udp: true
   type: trojan
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   sni: pl2.dedushka.top
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
+  server: pl1.dedushka.top
+  port: 443
+  udp: true
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: pl1.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 144.31.101.196
@@ -39,14 +34,6 @@ proxies:
   servername: browser.yandex.com
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 04 - xiaohe
-  server: pl1.dedushka.top
-  port: 443
-  udp: true
-  type: trojan
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: pl1.dedushka.top
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
   server: 54.37.131.126
   port: 80
   udp: true
@@ -68,7 +55,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - xiaohe
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -78,6 +64,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - xiaohe
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
 rules:
 - MATCH,PROXIES
