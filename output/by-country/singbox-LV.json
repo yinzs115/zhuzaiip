@@ -12,7 +12,10 @@
       "tls": {
         "enabled": true,
         "server_name": "lv1.dedushka.top",
-        "insecure": true
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ]
       }
     },
     {
