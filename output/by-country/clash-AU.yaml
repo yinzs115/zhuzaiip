@@ -18,17 +18,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  server: forwarded.frnhk.xyz
-  port: 46004
-  udp: true
-  type: vless
-  uuid: 3c5f522d-6695-474f-abcf-2b1a65d503fa
-  network: ws
-  ws-opts:
-    path: /aus1023
-    headers:
-      Host: forwarded.frnhk.xyz
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: funagfrdfs.alixxplay.com
   port: 54528
   udp: true
@@ -41,6 +30,17 @@ proxies:
     short-id: 54cca3c1c1c7
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  server: forwarded.frnhk.xyz
+  port: 46004
+  udp: true
+  type: vless
+  uuid: 3c5f522d-6695-474f-abcf-2b1a65d503fa
+  network: ws
+  ws-opts:
+    path: /aus1023
+    headers:
+      Host: forwarded.frnhk.xyz
 proxy-groups:
 - name: PROXIES
   type: select
