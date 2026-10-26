@@ -17,20 +17,6 @@ proxies:
   type: vless
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
 - name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: 150.241.87.200
-  port: 2096
-  udp: true
-  type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  tls: true
-  servername: stb6390.rumedia-cdn.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: stb6390.rumedia-cdn.com
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
   server: 77.232.135.141
   port: 8445
   udp: true
@@ -39,10 +25,25 @@ proxies:
   tls: true
   servername: ru1.radiolumens.uk
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: beru-pl
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: tr2.soft10.ir
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 480b4042-f713-43d7-b24b-b4064c97f841
+  tls: true
+  servername: tr2.soft10.ir
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr2.soft10.ir
 - name: 🇵🇱 波兰 (Poland) 05 - xiaohe
   server: 54.37.131.126
   port: 80
@@ -56,6 +57,16 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
+  server: 2.26.6.1
+  port: 2087
+  udp: true
+  type: vless
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  tls: true
+  servername: 2.26.6.1
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,6 +77,7 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
   - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,5 +88,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
   - 🇵🇱 波兰 (Poland) 05 - xiaohe
+  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 rules:
 - MATCH,PROXIES
