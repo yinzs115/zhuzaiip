@@ -13,7 +13,7 @@
     {
       "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "pl1.obxodvpn.us",
+      "server": "191.217.251.225",
       "server_port": 4443,
       "password": "146d567c-6335-4e63-a8aa-7ec068642440",
       "tls": {
@@ -45,13 +45,6 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe",
-      "server": "site.teslamotor.site",
-      "server_port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
       "server": "77.232.135.141",
       "server_port": 8445,
       "uuid": "36cf792c-f07d-4500-97ea-a395e5178deb",
@@ -68,6 +61,13 @@
         "type": "grpc",
         "service_name": "beru-pl"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
+      "server": "site.teslamotor.site",
+      "server_port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
       "type": "vmess",
@@ -87,26 +87,6 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
-      "server": "79.182.39.35",
-      "server_port": 25548,
-      "uuid": "5a519754-a673-4462-83f6-5eb25d2af141",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lceynvFy326oU4ew9OPR7079m-L5ZcFELgCl0sqxU2M",
-          "short_id": "bceb5b2197b76818"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 08 - xiaohe",
       "server": "2.26.6.1",
       "server_port": 2087,
       "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
@@ -118,6 +98,18 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 08 - xiaohe",
+      "server": "92.118.150.146",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.tronsg.com",
+        "insecure": false
       }
     },
     {
