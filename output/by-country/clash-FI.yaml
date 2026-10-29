@@ -35,16 +35,14 @@ proxies:
     headers:
       Host: hw3.divarkhaghazi.com.
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 45.144.234.157
-  port: 14430
+  server: mail.loyalsmile.net
+  port: 8080
   udp: true
   type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  uuid: 66315d7f-ebf4-43f6-a475-c578c382409f
   network: ws
   ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
+    path: /wp-content3
 proxy-groups:
 - name: PROXIES
   type: select
