@@ -45,7 +45,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -63,7 +63,7 @@
       "tls": {
         "enabled": true,
         "server_name": "in002.zestapp778.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {

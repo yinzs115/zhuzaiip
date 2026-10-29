@@ -36,7 +36,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 04 - xiaohe
   server: in002.zestapp778.com
   port: 42733
@@ -44,7 +44,7 @@ proxies:
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: in002.zestapp778.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇮🇳 印度 (India) 05 - xiaohe
   server: 64.176.96.237
   port: 443
