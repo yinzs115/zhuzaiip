@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
-      "server": "45.154.26.63",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.19.12.94",
       "server_port": 443,
-      "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
-      "flow": "xtls-rprx-vision",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "jp3.yohototo.top",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MiQ5B4j6In71lWvCi0vO_DkVSDb7sii34bh5efBMswk",
-          "short_id": "3c032a7e"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
