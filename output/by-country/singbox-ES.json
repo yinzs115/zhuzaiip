@@ -46,7 +46,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -58,24 +58,24 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 06 - xiaohe",
-      "server": "66.163.118.131",
+      "server": "66.163.118.40",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 07 - xiaohe",
-      "server": "66.163.118.62",
+      "server": "66.163.118.203",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "courses.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
@@ -87,20 +87,24 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "66.163.118.62",
+        "server_name": "courses.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 09 - xiaohe",
-      "server": "66.163.118.203",
+      "server": "66.163.118.131",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
+        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
