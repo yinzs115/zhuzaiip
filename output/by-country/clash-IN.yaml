@@ -38,20 +38,20 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 13.140.253.35
+  server: xray-dmr3b3hy-calm-maple-7.cloady.io
   port: 443
   udp: true
   type: vless
-  uuid: f1a7e2c8-b140-50d1-8acf-e62090f96599
+  uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
   tls: true
-  servername: xray-bprkdwje-clever-comet-4.cloady.io
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /27dbf143acdd7bca
+    path: /0175469f14317d82
     headers:
-      Host: xray-bprkdwje-clever-comet-4.cloady.io
+      Host: xray-dmr3b3hy-calm-maple-7.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select
