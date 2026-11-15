@@ -28,7 +28,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: xray-dmr3b3hy-calm-maple-7.cloady.io
+  server: 13.140.253.35
   port: 443
   udp: true
   type: vless
