@@ -6,17 +6,29 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "185.39.204.117",
-      "server_port": 10002,
-      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
+      "server": "87.76.154.28",
+      "server_port": 57231,
+      "uuid": "c34a41b6-598f-46ac-bea3-8b39a906f922"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "server": "185.71.216.94",
+      "server_port": 2195,
+      "uuid": "9654f1a9-8dbc-4897-85ea-c077a52b3857",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tr2.vpnjantit.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vpnjantit"
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
+          "short_id": "3869d49a9a79e06a"
+        }
       }
     },
     {
@@ -24,14 +36,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
